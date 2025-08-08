@@ -33,7 +33,12 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-speech-recognitions",
+      {
+        "microPhonePermission": "Allow mic access",
+        "speechRecognitionPermission" : "Allow speech recognition"
+      }
     ],
     "experiments": {
       "typedRoutes": true
